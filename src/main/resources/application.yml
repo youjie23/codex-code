@@ -1,0 +1,16 @@
+server:
+  port: 8080
+
+cmpp:
+  host: 127.0.0.1
+  port: 7890
+  sp-id: "123456"
+  shared-secret: "secret"
+  service-id: ""
+  source-addr: "10690000"
+  src-id: "10690000"
+  msg-format: "UCS2"
+  reconnect-delay: 5s
+  login-timeout: 10s
+  keepalive-interval: 30s
+  enable: false
